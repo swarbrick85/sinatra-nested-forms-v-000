@@ -26,9 +26,9 @@ module FormsLab
       @ships[0].name = params[:pirate][ships][0][name]
       @ships[0].type = params[:pirate][ships][0][type]
       @ships[0].booty = params[:pirate][ships][0][booty]
-      @ships[1].name = params[:ship_name_2]
-      @ships[1].type = params[:ship_type_2]
-      @ships[1].booty = params[:ship_booty_2]
+      @ships[1].name = params[:pirate][ships][1][name]
+      @ships[1].type = params[:pirate][ships][1][type]
+      @ships[1].booty = params[:pirate][ships][1][booty]
       binding.pry
       erb :show
       
