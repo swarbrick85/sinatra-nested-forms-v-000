@@ -23,7 +23,7 @@ module FormsLab
       end
  
       @ships = Ship.all
- binding.pry
+ 
       erb :show
       
     end 
