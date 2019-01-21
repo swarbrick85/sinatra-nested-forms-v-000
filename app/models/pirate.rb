@@ -5,6 +5,7 @@ class Pirate
   
   def initialize(name, weight, height, ship1, ship2) 
     @@all << self
+    @ships = [ship1, ship2]
   end
   
   def self.all 
