@@ -3,9 +3,9 @@ class Pirate
   attr_accessor :name, :weight, :height, :ships 
   @@all = []
   
-  def initialize 
+  def initialize(p) 
     @@all << self
-    @ships = [ship1, ship2]
+    
   end
   
   def self.all 
